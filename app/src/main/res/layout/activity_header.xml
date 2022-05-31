@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/medium"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@drawable/grey_circular"
+        android:padding="20dp"
+        android:src="@drawable/square_icon" />
+
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:background="@drawable/sirio">
+
+    </ImageView>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="lamp_title"
+            android:visibility="gone"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@drawable/grey_circular"
+        android:padding="30dp"
+        android:src="@drawable/search" />
+
+
+</RelativeLayout>
